@@ -33,6 +33,6 @@
   <entry>
     <title>测试代码</title>
     <url>/2021/08/26/%E4%BB%A3%E7%A0%81%E5%9D%97%E6%B5%8B%E8%AF%95/%E6%B5%8B%E8%AF%95/</url>
-    <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;你好&quot;</span>)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;你好&quot;</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="string">`这里使用了sticky属性可以置顶哦`</span></span><br></pre></td></tr></table></figure>]]></content>
   </entry>
 </search>
