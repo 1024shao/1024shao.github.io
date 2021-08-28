@@ -36,10 +36,10 @@
     <content><![CDATA[<figure class="highlight javascript"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fun</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(<span class="string">&quot;你好&quot;</span>)</span><br><span class="line">&#125;</span><br><span class="line"><span class="string">`这里使用了sticky属性可以置顶哦`</span></span><br></pre></td></tr></table></figure>]]></content>
   </entry>
   <entry>
-    <title></title>
+    <title>JS基础</title>
     <url>/2021/08/28/js/01-JS%E5%9F%BA%E7%A1%80%E5%A4%8D%E4%B9%A0/</url>
     <content><![CDATA[<h2 id="JS基础复习"><a href="#JS基础复习" class="headerlink" title="JS基础复习"></a>JS基础复习</h2><h4 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h4><blockquote>
-<p>基本(值)类型  </p>
+<p>基本(值)类型</p>
 <ul>
 <li>String//任意的字符串</li>
 <li>Number//任意的数字</li>
@@ -59,7 +59,7 @@
 <li>不能区分null和object，  object和array</li>
 <li>instanceof ：判断对象的具体类型</li>
 <li>b instanceof Object  //翻译为 b是不是 object的实例，返回值为true/false</li>
-<li>=== / == （会做数据转换）可以判断 null 和 undefined </li>
+<li>=== / == （会做数据转换）可以判断 null 和 undefined</li>
 </ul>
 <p>实例：  由构造函数创建的对象</p>
 </blockquote>
@@ -118,9 +118,12 @@
 <p>释放小内存的空间（对象的内存空间占的比较大）</p>
 </blockquote>
 <p>​    局部变量在函数调用的时候创建，函数调用完释放</p>
-<p>​    </p>
+<p>​</p>
 <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">fn</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">	<span class="keyword">var</span> b = &#123;&#125;</span><br><span class="line">	&#125;</span><br><span class="line">fn()</span><br><span class="line"><span class="comment">//b是在调用fn函数时创建，在调用完之后自动释放，而fn所指向的对是在某个时刻（成为垃圾对象）被垃圾回收器回收</span></span><br></pre></td></tr></table></figure>
 
 ]]></content>
+      <tags>
+        <tag>JS</tag>
+      </tags>
   </entry>
 </search>
